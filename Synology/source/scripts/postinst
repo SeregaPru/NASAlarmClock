@@ -1,0 +1,20 @@
+#!/bin/sh
+
+PACKAGE_DEST=$SYNOPKG_PKGDEST
+PRIVATE_LOCATION="/var/packages/AlarmClock/target"
+
+# prepare default config file
+PKG_USERCONF_DIR="/var/packages/AlarmClock/etc"
+
+# copy conf settings
+if [ ! -f "${PKG_USERCONF_DIR}/settings.conf" ]; then
+    cp -rf "${PRIVATE_LOCATION}/etc/settings.conf" "${PKG_USERCONF_DIR}/settings.conf"
+fi
+
+if [ ! -f "${PKG_USERCONF_DIR}/account.json" ]; then
+    cp -rf "${PRIVATE_LOCATION}/etc/account.json" "${PKG_USERCONF_DIR}/account.json"
+fi
+
+rm /var/log/alarmclock*
+
+exit 0

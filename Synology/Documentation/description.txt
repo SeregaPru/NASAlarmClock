@@ -1,0 +1,11 @@
+** You must own a Synology NAS to run this app, and have the Audio Station package installed to get the complete set of features**
+** You should also download "Synology Alarm Clock" package at http://www.nasalarmclock.com/ and install it on your NAS.
+
+Synology Alarm Clock package turns your Synology DiskStation into an intelligent music alarm clock. At the appointed time, you will be awakened by the gentle sounds of your favorite melody.
+
+* You can choose to play any playlist from configured in AudioStation, or created specifically for this purpose.
+* Music can play through a connected to DiskStation USB sound card or speakers, as well as any available in AudioStation network player by DLNA or AirPlay protocol.
+* You can set different playlists to different days of week.
+* Set up multiple alarms with different settings (time, player, playlist).
+* For each alarm clock, the play time is set.
+* You can adjust the fade playback to your awakening was more pleasant.

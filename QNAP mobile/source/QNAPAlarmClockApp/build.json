@@ -1,0 +1,22 @@
+{
+  "android": {
+    "release": {
+      "keystore": "res\\native\\android\\sergeyparfenov_qnap.keystore",
+      "storePassword": "xxxxxx",
+      "alias": "sergeyparfenov_qnap",
+      "password": "xxxxxx",
+      "keystoreType": ""
+    }
+  },
+  "windows": {
+    "debug": {
+      "packageCertificateKeyFile": "platforms\\windows\\CordovaApp_TemporaryKey.pfx",
+      "publisherId": "CN=819B0114-8DCC-4F25-8F62-29029F746CE7"
+    },
+    "release": {
+      "packageCertificateKeyFile": "res\\native\\windows\\CordovaApp.pfx",
+      "publisherId": "CN=819B0114-8DCC-4F25-8F62-29029F746CE7",
+      "packageThumbprint": "1B74871F143E70D917CC27AA8B9D1D36C5C9FFB4"
+    }
+  }
+}

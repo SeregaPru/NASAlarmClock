@@ -1,0 +1,71 @@
+/* QNAP styles */
+
+body {
+    font-size: 85% !important;
+}
+
+.x-firefox .x-layout-box {
+  display: flex !important;
+}
+
+
+#ext-viewport {
+    border-top: 5px solid #157efb;
+}
+
+/* scroller always visible */
+
+.x-scroll-indicator.rounded.x-scroll-indicator-y > :last-child {
+    height: 0px;
+}
+
+.detailsForm .x-form-fieldset {
+    border-right: 12px solid #EDEBF1 !important;
+}
+
+
+/* smaller height of inputs for desktop */
+
+.scitem .scdays span {
+    width: 7px;
+}
+
+.x-input-el {
+    padding: .1em .4em .1em .4em;
+    min-height: 2em;
+}
+
+.x-spinner .x-field-input {
+    height: 2.3em !important;
+}
+
+.x-spinner .x-spinner-button {
+  padding-top: 3px !important;
+  height: 1.28em !important;
+  width: 1.3em !important;
+}
+
+.detailsForm .x-slider-field .x-component-outer, 
+.detailsForm .x-toggle-field .x-component-outer {
+    padding: 0.3em 0 0.35em 0;
+}
+
+.detailsForm .x-slider-field-extended .x-component-outer {
+    padding: 0.2em 0 0.3em 0;
+}
+
+.detailsForm .x-form-label span {
+	margin: 3px 0px 0px 0px !important;
+}
+.settingsform .x-form-label span {
+	margin: 3px 0px 0px 0px !important;
+}
+
+
+.calendarbuttons .x-button {
+    height: 2.2em !important;
+}
+
+.inlinetimepicker .x-picker-item {
+	font-size: 1.25em;
+}

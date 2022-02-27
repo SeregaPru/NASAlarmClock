@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "parfenov.mobile.qnapalarmclock"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "parfenov.mobile.qnapalarmclock"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "parfenov.mobile.qnapalarmclock"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "parfenov.mobile.qnapalarmclock"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "parfenov.mobile.qnapalarmclock"
+        }
+    },
+    "dependent_plugins": {}
+}

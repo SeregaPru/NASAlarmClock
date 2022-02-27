@@ -1,0 +1,1 @@
+http://taco.visualstudio.com/en-us/docs/tutorial-package-publish-readme/#package-the-android-version-of-your-app

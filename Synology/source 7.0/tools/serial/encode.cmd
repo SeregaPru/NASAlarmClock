@@ -1,0 +1,1 @@
+python encode.py >encode.result 2>encode.error

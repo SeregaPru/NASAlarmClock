@@ -1,0 +1,63 @@
+﻿version 1.0.0.24 - 23 January 2016
+* Updated web API for supporting mobile apps (coming soon)
+
+version 1.0.0.23 - 20 December 2015
+* Improved: test play of selected task.
+* Now the current playing status, time and volume is displayed.
+* You can stop the playing at any time.
+
+
+version 1.0.0.22 - 15 December 2015
+* Fixed: bug when playing long playlist on some DLNA devices. Player wasn’t stop after defined playtime.
+
+
+version 1.0.0.21 - 28 November 2015
+* added feature to switch on/off selected alarm clock
+
+
+version 1.0.0.20 - 17 November 2015
+* full functional 30-days trial period.
+** You may obtain trial license at “My account” page.
+Other new features:
+* View log file directly from settings window;
+* Clear old log file.
+
+
+version 1.0.0.18 - 17 October 2015
+* was added the ability to receive log file directly from Synology AlarmClock window
+
+
+version 1.0.0.14 - 03 September 2015
+* improved time and volume control when playback
+* improved error detection and reporting
+* allow set minutes with decimals
+
+
+version 1.0.0.13 - 26 August 2015
+* masked password in settings window.
+* changes, made in task form, are immediately applied to task in grid, without need to press APPLY button.
+* modified and not saved tasks are highlighted in task list with red bullet.
+
+
+version 1.0.0.12 - 21 August 2015
+* Added log file - /var/log/alarmclock.log
+
+
+version 1.0.0.11 - 20 July 2015 
+* Added help file in English and Russian.
+
+
+version 1.0.0.9 - 8 July 2015
+* Fixed bug in Internet Explorer.
+
+
+version 1.0.0.7 - 17 Juny 2015
+* Added wakeup feature for Yamaha receivers with DLNA support.
+
+
+version 1.0.0.4 - 11 Juny 2015
+* User interface localization to all supported languages.
+
+
+version 1.0.0.3 - 13 May 2015
+* First complete working version.

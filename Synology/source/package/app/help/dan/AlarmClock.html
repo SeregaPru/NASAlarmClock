@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="img-no-display">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<link href="../../../../help/help.css" rel="stylesheet" type="text/css">
+<link href="../../../../help/scrollbar/flexcroll.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../../../../help/scrollbar/flexcroll.js"></script>
+<script type="text/javascript" src="../../../../help/scrollbar/initFlexcroll.js"></script>
+
+</head>
+<body>
+
+<h1>Alarm Clock for Synology</h1>
+
+<p>This program turns your <strong>Synology DiskStation</strong> into an intelligent music alarm clock.
+At the appointed time, you will be awakened by the gentle sounds of your favorite melody.</p>
+
+<p>You can choose to play any playlist from configured in <strong>AudioStation</strong>, or created specifically for this purpose.</p>
+
+<p>Music can play through a connected to
+DiskStation USB sound card or speakers, as well as any available in
+AudioStation network player by <strong>DLNA</strong> or <strong>AirPlay</strong> protocol.</p>
+
+<p>You can set different ringtones to different days of week, and set multiple alarms for different players. For
+example, early in the morning on weekdays in your room through the connected speakers, and a bit later - on a network player in the
+nursery for a child. Moreover, at the weekend - set alarm clock to a later time.</p>
+
+<p>For each alarm clock, the play time is set.</p>
+
+<p>You can adjust the fade playback to your awakening was more pleasant.</p>
+
+
+<h2>Main settings</h2>
+
+<p>To start at the scheduled time, <strong>AlarmClock</strong> uses the built-in task DiskStation scheduler. Therefore, you must specify the
+account with rights for adding tasks to the built-in scheduler. For example, it may be the system administrator account.</p>
+
+<p>Click on <strong>&quot;Settings&quot;</strong> button on the toolbar.</p>
+
+<p><img src="../image001.png"></p>
+
+<p>A window for entering a name and password for the account will be opened.</p>
+
+<p><img src="../image002.png"></p>
+
+
+<h2>Alarm clock setup</h2>
+
+<p>The main window consists of a toolbar (1), the list of tasks (2) and the settings panel for the selected task (3).</p>
+
+<p><img src="../image003.png"></p>
+
+<p>
+<ul>
+
+<li>Click <strong>&quot;Create&quot;</strong> button to add a new task (alarm). The new task will be added to the task list.</li>
+
+<li>Select the new task in the list.</li>
+
+<li>In the task settings panel, you can adjust the settings of the selected task:</li>
+
+<ul>
+	<li>Select the days of the week, when fire alarm. Set the time.</li>
+
+	<li>Select a playlist. You see a list of playlists that are configured in <strong>AudioStation</strong>.
+	You can create (in <strong>AudioStation</strong>) special playlist for your alarm clock.</li>
+
+	<li>Select the device to play from the list of devices available in the AudioStation.
+	This can be a USB sound card or USB speakers or a network player supporting <strong>DLNA</strong> protocol or <strong>AirPlay</strong>.</li>
+
+	<li>Set the playing time (in minutes). After a specified time, the playback will stop (and you can continue to sleep :) )</li>
+
+	<li>Adjust the fade. Specify the starting and ending volume, and the time during which the volume will increase.
+	If the specified time is less than the total duration of the sound, playback will continue with the final volume all the time remaining.</li>
+
+	<li>All the settings you have made for the task appear in the task list. But there will not be saved in the settings DiskStation.</li>
+</ul>
+
+<li>Tasks with unsaved changes are marked with red bullet.</li>
+
+<li>To save all of your settings, click <strong>&quot;Save&quot;</strong> button on the toolbar.
+All the settings will be saved to <strong>DiskStation</strong> storage
+and the main task scheduler DiskStation will be added to the task you have configured alarms.</li>
+<br/>
+
+<li><strong>&quot;Delete&quot;</strong> button deletes the selected task from the task list.</li>
+<br/>
+
+<li><strong>&quot;Reset&quot;</strong> button returns the task list to the last saved state if you inadvertently delete any task or chose wrong settings.</li>
+<br/>
+
+<li>The <strong>&quot;Run&quot;</strong> button launches the selected alarm now, so you can check it without waiting for the scheduled time.
+If you launch fails, you will see the window with information about the error.</li>
+
+</ul>
+</p>
+
+<h2>Features</h2>
+
+<p>When playing the player on the network protocol <strong>DLNA</strong>, the majority of players are automatically included (go from sleep mode)
+and begin playback. However, some players are not automatically included:
+<ul>
+	<li>Yamaha AV Receiver</li>
+</ul>
+</p>
+
+<p><strong>AlarmClock</strong> recognize players from this list, and sends them to a special command to wake it.</p>
+
+<p>If you have a network player that does not turn on automatically when you start playback,
+write the authors of the program, and it will be added to the list of supported wake-on-lan devices.</p>
+
+</body>
+</html>

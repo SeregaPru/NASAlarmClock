@@ -1,0 +1,2 @@
+/* hide header for windows app */
+.x-windows .titlebar { visibility: hidden; display: none; }

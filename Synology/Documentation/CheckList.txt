@@ -1,0 +1,79 @@
+AlarmClock checklist
+
+1) Manual install Package
+ * Open Package Center
+ * Press "Manual Install" button
+ * Select package file "AlarmClock.spk"
+ * Complete install process.
+ * Package "Alarm Clock" should be installed and visible in Package Center and in Start menu
+ 
+2) Launch user interface
+ * Select program "Alarm Clock" in main synology program menu
+ * New window with title "Alarm Clock" should be opened
+ 
+3) Set up account 
+ * Press "Settings" button in top toolbar
+ * Pop-up window will open
+ * Enter login and password for any account, that have permissions to play in AudioStation and to add tasks to synology scheduler.
+ * Press "OK"
+ * Account info should be saved, no errors should be shown
+
+4) Add new task
+ * Press "Create" button in top toolbar
+ * New row in task list will be added, with default values
+
+5) Set up task fields
+ * Select newly added row.
+ * In bottom panel fields are filled with selected task values.
+ * Set up: 
+   Day, 
+   Time, 
+   Playlist (from the list of playlists, that configured in Audiostation),
+   Device 
+    (From the list of playlists, that are allowed in Audiostation, except "My Computer".
+	 List contains all DLNA and AirPlay devices.),
+   Play duration in minutes,
+   Increase volume duration, in minutes,
+   Start and finish values of volume.
+ * Entered values should be displayed in selected row in task list.
+ 
+ Note: all the changes are not saved automatically.
+ To save them, you should press "Save" button (see test below).
+ If you close windows without saving changes, all the changes will be lost.
+
+6) Save tasks
+ * Press "Save" button in top toolbar.
+ * Progress indicator "Saving" will be shown.
+ * After save, you should see added tasks in Synology Control Panel \ Task Scheduler.
+   For scheduled task you could check scheduled date and time.
+
+7) Delete task
+ * Select row in task list.
+ * Press "Delete" button in top toolbar.
+ * Selected row will be deleted from task list.
+
+ Note: all the changes are not saved automatically.
+ To save them, you should press "Save" button (see test below).
+ If you close windows without saving changes, all the changes will be lost.
+
+8) Reset changes
+ * Add and edit some tasks, do not save changes.
+ * Press "Reset" button in top toolbar.
+ * All the changes will be lost, task list will be filled with last saved values.
+ 
+9) Manual run task
+ * Select row in task list with correctly defined values: playlist, device, duration, volume.
+ * Press "Run" button in top toolbar.
+ * Playback of defined playlist in defined device should begin.
+   You can see also playback progress in Audiostation window.
+ * If there were any errors during playback, short error info will be displayed in popup window,
+   more information you can see in browser console,
+   even more information see in log file.
+
+10) Run task by schedule
+ * In defined date and time for task, synology scheduler should run task and playback should begin.
+
+11) Open help 
+ * Press "?" button in window header
+ * Standard Synology help windows should be opened.
+ * Alarm Clock help page should be displayed. (Check that images are displayed correct)

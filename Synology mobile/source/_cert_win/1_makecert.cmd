@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Windows Kits\10\bin\x64\makecert.exe" -n "CN=819B0114-8DCC-4F25-8F62-29029F746CE7" -r -eku "1.3.6.1.5.5.7.3.3,1.3.6.1.4.1.311.10.3.13" -e "01/01/2020" -h 0 -sv wincert.pvk wincert.cer

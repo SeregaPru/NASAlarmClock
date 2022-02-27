@@ -1,0 +1,24 @@
+* User Manual – the user manual is necessary for us to install and execute the package in Synology NAS.
+ See attach user_manual.zip.
+ This is user manual and in the same time help file for client interface.
+
+* Change Log – the change log is needed when there is a software update.
+ See attach - Changelog.txt
+
+* Major features – developers should list all main features of the package, with detailed information.
+ * You can choose to play any playlist from configured in AudioStation, or created specifically for this purpose.
+ * Music can play through a connected to DiskStation USB sound card or speakers, as well as any available in
+   AudioStation network player by DLNA or AirPlay protocol.
+ * You can set different playlists to different days of week.
+ * Set up multiple alarms with different settings (time, player, playlist).
+ * For each alarm clock, the play time is set.
+ * You can adjust the fade playback to your awakening was more pleasant.
+
+* Checklist – developers should provide the basic checklist, and this checklist must be verified themselves first. Synology will go through the checklist again.
+ See attach - Checklist.txt
+ 
+* Test Log – provide the location of the system log, so that our test team can provide  the log to developers if needed.
+ Log file is written to /var/log/alarmclock.log
+ 
+* Test account/username – any test account/username should be provided for verifying the package.
+ You should use any predefined system account, for example admin or root

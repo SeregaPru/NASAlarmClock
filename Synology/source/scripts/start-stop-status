@@ -1,0 +1,45 @@
+#!/bin/sh
+
+PACKAGE_DIR="/var/packages/AlarmClock"
+DSM_INDEX_ADD="/usr/syno/bin/pkgindexer_add"
+DSM_INDEX_DEL="/usr/syno/bin/pkgindexer_del"
+PKG_APP_PATH="${PACKAGE_DIR}/target/app"
+PKG_INDEXDB_PATH="${PACKAGE_DIR}/target/indexdb"
+
+case $1 in
+	start)
+		#Index Help Files 
+		${DSM_INDEX_ADD} ${PKG_APP_PATH}/helptoc.conf ${PKG_INDEXDB_PATH}/helpindexdb
+		${DSM_INDEX_ADD} ${PKG_APP_PATH}/index.conf ${PKG_INDEXDB_PATH}/appindexdb
+		
+		ln -s -f ${PKG_APP_PATH}/cgi/api.cgi ${PKG_APP_PATH}/api.cgi
+		
+	        /usr/bin/python ${PKG_APP_PATH}/cgi/server.py start >> /tmp/alarmclock.start 2>> /tmp/alarmclock.start
+				
+		exit 0
+	;;
+	
+	stop)
+		# Remove Help Files 
+		${DSM_INDEX_DEL} ${PKG_APP_PATH}/helptoc.conf ${PKG_INDEXDB_PATH}/helpindexdb
+		${DSM_INDEX_DEL} ${PKG_APP_PATH}/index.conf ${PKG_INDEXDB_PATH}/appindexdb
+
+		rm -f ${PKG_APP_PATH}/api.cgi
+
+	        /usr/bin/python ${PKG_APP_PATH}/cgi/server.py stop >> /tmp/alarmclock.start 2>> /tmp/alarmclock.start
+				
+		exit 0
+	;;
+	
+	status)
+		exit 0
+	;;
+	
+	killall)
+	;;
+	
+	log)
+		exit 0
+	;;
+esac
+                                     

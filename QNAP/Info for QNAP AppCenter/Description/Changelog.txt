@@ -1,0 +1,12 @@
+version 1.10 - 19 November 2017
+* fix for shuffle support
+* fix for "unknown error" that may come from time to time from MusicStation
+
+version 1.09 - 08 November 2017
+* Internal API extension for mobile app support (coming soon)
+
+version 1.08 - 29 August 2017
+* Fixed: bug with correct displaying "Settings" page in IE and Firefox browsers
+
+version 1.07 - 27 June 2017
+* First complete working version, published in QNAP AppCenter

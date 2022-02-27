@@ -1,0 +1,21 @@
+1) Which region/country are you based?
+ Russia, Samara
+
+2) Do you have any current integration partners like Synology?
+ I have one published application for Windows Phone, in Windows Phone Marketplace.
+ For Synology applications I have no partners.
+
+3) In terms of your previous solutions, do you have any media review?
+ No
+
+4) Approximately how many users do you have at the moment?
+ For Synology applications (Alarm Clock) I have 4 beta testers who help me test application on different equipment.
+
+5) What's your estimated gross revenue in 2014?
+ No gross revenue from selling my applications.
+
+6) Do you have any channel partners that are familiar with Synology products? 
+ No
+
+7) Does the user need to pay for this package? 
+ Yes.

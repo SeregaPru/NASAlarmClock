@@ -1,0 +1,57 @@
+div.custom-dirty .x-grid3-dirty-cell { background-image: none; }
+
+div.custom-dirty .x-grid3-dirty-row  .x-grid3-cell-first { 
+  background-image: url(images/bullet_red.png); 
+  background-position: left center; 
+}
+
+div.custom-dirty .x-grid3-dirty-row  td  div { color: rgb(120, 90, 100); !important; }
+
+
+
+#trialPanel {
+	padding: 7px 0px 0px 0px;	
+}
+
+#trialPanel:after {
+	position: absolute;
+	overflow: visible;
+	z-index: 5;
+	top: -1px;
+	right: 40px;
+	border-style: solid;
+	border-width: 0 10px 8px;
+	border-color: rgb(190, 230, 50) transparent;
+	display: block;
+	width: 0;
+	content: "";
+}
+
+#trialPanel #trialPanelInternal {
+	background: rgb(190, 230, 50);
+	padding: 8px 20px;
+}
+
+
+#accountPanel {
+	padding: 7px 0px 0px 0px;
+}
+
+#accountPanel #accountPanelInternal {
+	background: rgb(255, 205, 50);
+	padding: 8px 20px;
+}
+
+#accountPanel:after {
+	position: absolute;
+	overflow: visible;
+	z-index: 5;
+	top: -1px;
+	right: 40px;
+	border-style: solid;
+	border-width: 0 10px 8px;
+	border-color: rgb(255, 205, 50) transparent;
+	display: block;
+	width: 0;
+	content: "";
+}

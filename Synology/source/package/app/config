@@ -1,0 +1,26 @@
+{
+    "alarmclock.js": {
+        "Parfenov.AlarmClock.Application": {
+            "type": "app",
+            "version": "2.2-0001",
+            "hidden": false,
+            "allowStandalone": true,
+            "defaultAlias": "alarmclock",
+            "allowMultiInstance": false,
+            "allUsers": true,
+            "grantPrivilege": "all",
+            "loginIcon": "images\/login_icon_alarmclock_{0}.png",
+            "icon": "images\/alarmclock_{0}.png",
+            "texts": "texts",
+            "title": "Alarm Clock",
+            "formatedTitle": "Alarm Clock",
+            "appWindow": "Parfenov.AlarmClock.MainWindow"
+        },
+        "Parfenov.AlarmClock.MainWindow": {
+            "type": "lib",
+            "title": "Alarm Clock",
+            "formatedTitle": "Alarm Clock",
+            "icon": "images\/alarmclock_{0}.png"
+        }
+    }
+}

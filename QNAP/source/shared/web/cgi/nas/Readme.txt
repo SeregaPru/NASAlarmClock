@@ -1,0 +1,1 @@
+QNAP NAS specifis implementation
